@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "97695BA71D76B7C200CB04D4"
-               BuildableName = "EmptyIOSProjectTests.xctest"
-               BlueprintName = "EmptyIOSProjectTests"
-               ReferencedContainer = "container:EmptyIOSProject.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
