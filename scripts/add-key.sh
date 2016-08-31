@@ -27,5 +27,5 @@ echo " ****** "
 # Put the provisioning profile in place
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 
-cp "./scripts/profiles/AnyId.mobileprovision" ~/Library/MobileDevice/Provisioning\ Profiles/
+cp "./scripts/profiles/*.mobileprovision" ~/Library/MobileDevice/Provisioning\ Profiles/
 # cp "./scripts/profiles/DISTRIBUTION_PROFILE_NAME.mobileprovision" ~/Library/MobileDevice/Provisioning\ Profiles/
