@@ -4,4 +4,5 @@ xcode_project: EmptyIOSProject.xcodeproj # 项目文件相对于.travis.yml文�
 
 xcode_scheme: EmptyIOSProject #你需要集成测试的scheme
 
-xcode_sdk: iphonesimulator
+script: xctool -project EmptyIOSProject.xcodeproj -scheme EmptyIOSProject build
+# xcode_sdk: iphonesimulator
