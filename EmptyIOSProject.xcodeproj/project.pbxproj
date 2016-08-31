@@ -269,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wrl.EmptyIOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "87eb19cb-0255-4f4b-8642-d7671f43d78e";
 			};
 			name = Debug;
 		};
@@ -280,6 +281,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wrl.EmptyIOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "87eb19cb-0255-4f4b-8642-d7671f43d78e";
 			};
 			name = Release;
 		};
@@ -302,6 +304,7 @@
 				97695BA31D768D0B00CB04D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
