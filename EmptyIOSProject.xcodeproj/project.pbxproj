@@ -13,7 +13,18 @@
 		97695B981D768D0B00CB04D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97695B961D768D0B00CB04D4 /* Main.storyboard */; };
 		97695B9A1D768D0B00CB04D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97695B991D768D0B00CB04D4 /* Assets.xcassets */; };
 		97695B9D1D768D0B00CB04D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97695B9B1D768D0B00CB04D4 /* LaunchScreen.storyboard */; };
+		97695BAB1D76B7C200CB04D4 /* EmptyIOSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97695BAA1D76B7C200CB04D4 /* EmptyIOSProjectTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97695BAD1D76B7C200CB04D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97695B821D768D0B00CB04D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97695B891D768D0B00CB04D4;
+			remoteInfo = EmptyIOSProject;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		97695B8A1D768D0B00CB04D4 /* EmptyIOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmptyIOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +37,20 @@
 		97695B991D768D0B00CB04D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97695B9C1D768D0B00CB04D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97695B9E1D768D0B00CB04D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97695BA81D76B7C200CB04D4 /* EmptyIOSProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmptyIOSProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97695BAA1D76B7C200CB04D4 /* EmptyIOSProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyIOSProjectTests.m; sourceTree = "<group>"; };
+		97695BAC1D76B7C200CB04D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		97695B871D768D0B00CB04D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97695BA51D76B7C200CB04D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				97695B8C1D768D0B00CB04D4 /* EmptyIOSProject */,
+				97695BA91D76B7C200CB04D4 /* EmptyIOSProjectTests */,
 				97695B8B1D768D0B00CB04D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				97695B8A1D768D0B00CB04D4 /* EmptyIOSProject.app */,
+				97695BA81D76B7C200CB04D4 /* EmptyIOSProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +102,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		97695BA91D76B7C200CB04D4 /* EmptyIOSProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				97695BAA1D76B7C200CB04D4 /* EmptyIOSProjectTests.m */,
+				97695BAC1D76B7C200CB04D4 /* Info.plist */,
+			);
+			path = EmptyIOSProjectTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +131,24 @@
 			productReference = 97695B8A1D768D0B00CB04D4 /* EmptyIOSProject.app */;
 			productType = "com.apple.product-type.application";
 		};
+		97695BA71D76B7C200CB04D4 /* EmptyIOSProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97695BB11D76B7C200CB04D4 /* Build configuration list for PBXNativeTarget "EmptyIOSProjectTests" */;
+			buildPhases = (
+				97695BA41D76B7C200CB04D4 /* Sources */,
+				97695BA51D76B7C200CB04D4 /* Frameworks */,
+				97695BA61D76B7C200CB04D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97695BAE1D76B7C200CB04D4 /* PBXTargetDependency */,
+			);
+			name = EmptyIOSProjectTests;
+			productName = EmptyIOSProjectTests;
+			productReference = 97695BA81D76B7C200CB04D4 /* EmptyIOSProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -110,6 +160,10 @@
 				TargetAttributes = {
 					97695B891D768D0B00CB04D4 = {
 						CreatedOnToolsVersion = 7.3.1;
+					};
+					97695BA71D76B7C200CB04D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 97695B891D768D0B00CB04D4;
 					};
 				};
 			};
@@ -127,6 +181,7 @@
 			projectRoot = "";
 			targets = (
 				97695B891D768D0B00CB04D4 /* EmptyIOSProject */,
+				97695BA71D76B7C200CB04D4 /* EmptyIOSProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +194,13 @@
 				97695B9D1D768D0B00CB04D4 /* LaunchScreen.storyboard in Resources */,
 				97695B9A1D768D0B00CB04D4 /* Assets.xcassets in Resources */,
 				97695B981D768D0B00CB04D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97695BA61D76B7C200CB04D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +217,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		97695BA41D76B7C200CB04D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97695BAB1D76B7C200CB04D4 /* EmptyIOSProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97695BAE1D76B7C200CB04D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97695B891D768D0B00CB04D4 /* EmptyIOSProject */;
+			targetProxy = 97695BAD1D76B7C200CB04D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		97695B961D768D0B00CB04D4 /* Main.storyboard */ = {
@@ -283,6 +361,30 @@
 			};
 			name = Release;
 		};
+		97695BAF1D76B7C200CB04D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmptyIOSProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wrl.EmptyIOSProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmptyIOSProject.app/EmptyIOSProject";
+			};
+			name = Debug;
+		};
+		97695BB01D76B7C200CB04D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmptyIOSProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wrl.EmptyIOSProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmptyIOSProject.app/EmptyIOSProject";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -300,6 +402,15 @@
 			buildConfigurations = (
 				97695BA21D768D0B00CB04D4 /* Debug */,
 				97695BA31D768D0B00CB04D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97695BB11D76B7C200CB04D4 /* Build configuration list for PBXNativeTarget "EmptyIOSProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97695BAF1D76B7C200CB04D4 /* Debug */,
+				97695BB01D76B7C200CB04D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

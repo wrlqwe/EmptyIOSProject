@@ -5,3 +5,6 @@ xcode_project: EmptyIOSProject.xcodeproj # 项目文件相对于.travis.yml文�
 xcode_scheme: EmptyIOSProject #你需要集成测试的scheme
 
 xcode_sdk: iphonesimulator9.3
+
+script:
+- set -o pipefail && xcodebuild test -project EmptyIOSProject.xcodeproj -scheme EmptyIOSProject -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' ONLY_ACTIVE_ARCH=NO | xcpretty
